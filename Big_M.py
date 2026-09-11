@@ -73,7 +73,7 @@ def big_m_simplex():
                 
         iteration += 1
 
-    # Extract solution
+#extract solution
     solution = np.zeros(n)
     for i, b_idx in enumerate(basis):
         solution[b_idx] = tableau[i, -1]
